@@ -1,4 +1,6 @@
 puppet-owncloud
-===============
+=================
 
-Puppet module to instal owncloud
+Puppet module to install owncloud
+
+Tested in Debian
