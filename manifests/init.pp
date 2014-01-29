@@ -12,10 +12,6 @@ class owncloud() inherits owncloud::params {
 
   package { 'owncloud':
     ensure => present,
-  } ->
-  service { 'owncloud':
-    enable => true,
-    ensure => running,
   }
 
 }
